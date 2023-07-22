@@ -42,10 +42,10 @@ int main ()
   for(int g=0;g<8;g++){
     if(myClass[g].prop==1){
       if(myClass[g].first_interest == "ict"){
-        if(ict.size()<3){
+        if(ict.size()<2){
           ict.push_back(myClass[g]);
         }
-        else if (ict.size()>=3)
+        else if (ict.size()>=2)
         {
           myClass[g].prop+=1;
         }
